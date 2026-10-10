@@ -38,6 +38,36 @@ Gulf cities grow fast and their surfaces pass **55 °C** in summer. People still
 
 **Why satellites:** heat, surfaces and growth must be measured city-wide, every summer, at the same time of day. Only thermal, multispectral, radar and hyperspectral satellites do that.
 
+## Data
+
+All inputs are open data. The organisers ask teams to rely on open sources at the
+proof-of-concept stage, so every layer below is freely available and credited.
+
+| Source | Product / processing level | Licence | Credit |
+|---|---|---|---|
+| Landsat 8/9 | Collection 2 Level-2 surface temperature | Public domain | Courtesy of the U.S. Geological Survey |
+| Sentinel-2 | Level-2A surface reflectance | Copernicus | Contains modified Copernicus Sentinel data 2025 |
+| Sentinel-1 | Level-1 GRD | Copernicus | Contains modified Copernicus Sentinel data 2025 |
+| ERA5 via Open-Meteo | Reanalysis | Copernicus C3S | Generated using Copernicus Climate Change Service information 2025 |
+| ESA WorldCover | v200, 2021, 10 m | CC BY 4.0 | © ESA WorldCover project 2021 |
+| Impact Observatory | 10 m annual LULC | CC BY 4.0 | © Impact Observatory |
+| OpenStreetMap | Vector extract via Overpass | **ODbL** | © OpenStreetMap contributors |
+| Microsoft Building Footprints | Vector | **ODbL** | © Microsoft, Open Database License |
+| NASA EMIT | L2A reflectance | Open | Courtesy NASA/JPL-Caltech |
+| Planet Tanager | Open Data STAC, radiance | CC BY 4.0 | Tanager STAC Data, available at www.planet.com/data/stac © 2025 Planet Labs PBC. All Rights Reserved. |
+| WorldPop | 2025 population, ~100 m, modelled | CC BY 4.0 | © WorldPop, University of Southampton |
+| NOAA ISD | Hourly station observations | Open | NOAA National Centers for Environmental Information |
+| Segment Anything (SAM) | Model | Apache-2.0 | © Meta Platforms, Inc. |
+| Llama-3.3-70B | Model | Llama 3.3 Community License | **Built with Llama** |
+
+### Share-alike notice
+
+OpenStreetMap and Microsoft Building Footprints are published under the Open Database License (ODbL), which requires attribution **and** share-alike. Any derived database we distribute that is produced from those layers is made available under the same terms.
+
+### Not used
+
+Satellite 813, gIQ and commercial Planet imagery are not used anywhere in this proof of concept. They appear only under future work, in line with the programme's instruction to rely on open data at this stage.
+
 ## 3 · Data used
 
 | Dataset | Provider | Dates | Processing level | Licence |
